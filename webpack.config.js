@@ -33,7 +33,7 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.LoaderOptionsPlugin({ debug: true })
+    new webpack.LoaderOptionsPlugin({ debug: true }),
   ],
 
   output:{
